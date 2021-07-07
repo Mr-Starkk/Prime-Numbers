@@ -13,12 +13,12 @@
     <body>
         <header id = "header-title" > Sieve of Eratosthenes </header>
         <div id = 'main-container'>
-            <h1>Enter A Number Below : </h1>
-            <input type="text">
-            <button type="submit">CALCULATE</button>
+            <h1 style="font-family: 'Lato', sans-serif;text-align: center;">Enter A Number Below : </h1>
+            <input id="input" placeholder="Between 1 and a million" style="">
+            <button type="submit" onclick="SeiveOfEratosthenes(document.getElementById('input').value)">CALCULATE</button>
 
             <div>
-                <textarea id="textarea" rows="20" cols="70"></textarea>
+                <textarea id="textarea" rows="14" cols="45"></textarea>
             </div>
 
         </div>

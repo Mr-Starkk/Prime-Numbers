@@ -9,11 +9,30 @@ body{
     
 }
 
+textarea{
+    border: 10px double saddlebrown;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    background: black;
+    color: green;
+}
+
+
 #header-title{
     font-family:'Roboto', sans-serif;
     font-size: 40px;
     color:rgb(37, 20, 20);
     text-align: center;
     text-decoration: underline;
-};
-
+    text-shadow: 2px 2px #18612a;
+    border: 5px dotted #18612a;
+    padding: 1.5%;
+}
+#input{
+    height: 25px; 
+    color: green;
+    border: 3px solid #091a52; 
+    font-size: 1.2em; 
+    margin: 10px;
+}

@@ -20,9 +20,10 @@ function SeiveOfEratosthenes(n){
     };
     //loop to print out primes
     textarea = document.getElementById('textarea');
+    textarea.textContent = 'Prime Numbers upto ' + `${n}` + ' : ';
     for(i=2; i<=n;i++){
         if(prime[i] == true){
-            textarea.textContent += i + " ";
+            textarea.textContent += i + ",  ";
         };
     };
 
